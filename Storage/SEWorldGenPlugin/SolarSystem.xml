@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<MyObjectBuilder_SystemData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CenterObject>
+    <Type>EMPTY</Type>
+    <DisplayName>Center</DisplayName>
+    <Id>eb1cc900-50a7-4418-9524-5a22eeb888ce</Id>
+    <CenterPosition x="0" y="0" z="0" />
+    <ParentId>00000000-0000-0000-0000-000000000000</ParentId>
+    <ChildObjects>
+      <MySystemObject xsi:type="MySystemPlanet">
+        <Type>PLANET</Type>
+        <DisplayName>SMOLHOLE</DisplayName>
+        <Id>b53cbe8a-ab52-484a-89be-0758baceb58f</Id>
+        <CenterPosition x="0" y="0" z="0" />
+        <ParentId>eb1cc900-50a7-4418-9524-5a22eeb888ce</ParentId>
+        <ChildObjects />
+        <SubtypeId>BlackHole</SubtypeId>
+        <Diameter>1000</Diameter>
+        <Generated>true</Generated>
+        <EntityId>-4661945462517774898</EntityId>
+      </MySystemObject>
+      <MySystemObject xsi:type="MySystemAsteroids">
+        <Type>ASTEROIDS</Type>
+        <DisplayName>ROIDCLUSTER</DisplayName>
+        <Id>b45f027b-d708-4657-822f-6f3aa140db50</Id>
+        <CenterPosition x="0" y="0" z="0" />
+        <ParentId>eb1cc900-50a7-4418-9524-5a22eeb888ce</ParentId>
+        <ChildObjects />
+        <AsteroidTypeName>AsteroidCluster</AsteroidTypeName>
+        <AsteroidSize>
+          <Min>1024</Min>
+          <Max>1024</Max>
+        </AsteroidSize>
+      </MySystemObject>
+      <MySystemObject xsi:type="MySystemPlanet">
+        <Type>PLANET</Type>
+        <DisplayName>Moon</DisplayName>
+        <Id>833a560b-6022-48b5-9149-df219c4f2ee9</Id>
+        <CenterPosition x="136.55656984238158" y="189.24452893980197" z="70478.3044132257" />
+        <ParentId>eb1cc900-50a7-4418-9524-5a22eeb888ce</ParentId>
+        <ChildObjects />
+        <SubtypeId />
+        <Diameter>123600</Diameter>
+        <Generated>true</Generated>
+        <EntityId>2009344032305228557</EntityId>
+      </MySystemObject>
+    </ChildObjects>
+  </CenterObject>
+</MyObjectBuilder_SystemData>
