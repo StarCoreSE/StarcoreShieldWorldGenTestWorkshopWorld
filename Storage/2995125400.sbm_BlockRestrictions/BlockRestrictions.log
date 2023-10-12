@@ -1,5 +1,5 @@
-[21:29:58.352] [T1] [DS=False] DEBUG | Log Started
-[21:29:58.477] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[22:18:08.014] [T1] [DS=False] DEBUG | Log Started
+[22:18:08.128] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1514,13 +1514,13 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/JN_175Fixed
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_UpgradeModule/StealthDrive
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_UpgradeModule/StealthDriveSmall
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_UpgradeModule/StealthHeatSink
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_UpgradeModule/StealthHeatSinkSmall
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/ModularLRM
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/ModularLRMSEAM
@@ -1886,7 +1886,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/CLBX20
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_UpgradeModule/StealthDrive1x1
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/ARYXMagnetarCannon
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/CLBX5
