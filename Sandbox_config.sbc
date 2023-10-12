@@ -144,6 +144,16 @@
     <EnemyTargetIndicatorDistance>20</EnemyTargetIndicatorDistance>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="Starcore Paperdoll">
+      <Name>2846569122.sbm</Name>
+      <PublishedFileId>2846569122</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCoreLinkUtility">
+      <Name>2927550954.sbm</Name>
+      <PublishedFileId>2927550954</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Norse Heavy Industries - Weaponcore">
       <Name>2791770628.sbm</Name>
       <PublishedFileId>2791770628</PublishedFileId>
@@ -209,19 +219,9 @@
       <PublishedFileId>3037494862</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Stealth Drive (Cloaking)">
-      <Name>2805859069.sbm</Name>
-      <PublishedFileId>2805859069</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="StarCorePracticeAI">
       <Name>3024311955.sbm</Name>
       <PublishedFileId>3024311955</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCoreLinkUtility">
-      <Name>2927550954.sbm</Name>
-      <PublishedFileId>2927550954</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore_Pointslist_Dev">
@@ -546,5 +546,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarcoreShieldWorldGenTestWorkshopWorld</SessionName>
-  <LastSaveTime>2023-10-11T19:29:03.2036723-05:00</LastSaveTime>
+  <LastSaveTime>2023-10-11T20:56:06.9943254-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
