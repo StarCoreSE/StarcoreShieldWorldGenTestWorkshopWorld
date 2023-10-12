@@ -868,11 +868,6 @@ SiegeCooldownTimer=18000
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="Anomaly-Solaris-Hypernautics">
-      <Name>2983399274.sbm</Name>
-      <PublishedFileId>2983399274</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="StarCore Arcane Weaponry">
       <Name>2883286527.sbm</Name>
       <PublishedFileId>2883286527</PublishedFileId>
