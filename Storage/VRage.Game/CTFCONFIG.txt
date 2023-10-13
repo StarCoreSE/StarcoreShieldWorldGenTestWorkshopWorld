@@ -38,7 +38,7 @@ bool=true
 Instant/Ground/Floating=Floating
 
 [Drop Reset Time]
-int=300
+int=3600
 
 [Single Flag]
 bool=false
