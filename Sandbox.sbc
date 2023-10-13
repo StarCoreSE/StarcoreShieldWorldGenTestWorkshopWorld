@@ -115,7 +115,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -186,7 +186,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -868,10 +868,6 @@ SiegeCooldownTimer=18000
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem>
-      <Name>PaperDoll</Name>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="StarCoreLinkUtility">
       <Name>2927550954.sbm</Name>
       <PublishedFileId>2927550954</PublishedFileId>
