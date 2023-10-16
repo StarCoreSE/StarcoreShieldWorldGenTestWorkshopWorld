@@ -1,28 +1,27 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>787551200000</ElapsedGameTime>
+  <ElapsedGameTime>789431360000</ElapsedGameTime>
   <SessionName>StarcoreShieldWorldGenTestWorkshopWorld</SessionName>
   <SpectatorPosition>
-    <Position x="21.648055036292138" y="10020.027790278215" z="25.220524872147006" />
-    <Forward x="-0.5773503" y="-0.577350259" z="-0.577350259" />
-    <Up x="-0.408248276" y="0.8164966" z="-0.408248246" />
+    <Position x="-4218.9776248716762" y="1203.5031370629827" z="6617.0032511967747" />
+    <Forward x="0.592969656" y="-0.165785149" z="-0.7879735" />
+    <Up x="-0.06423422" y="0.9657183" z="-0.2515195" />
     <Orientation>
-      <X>-0.279848129</X>
-      <Y>0.3647052</Y>
-      <Z>0.115916893</Z>
-      <W>0.880476236</W>
+      <X>-0.110642239</X>
+      <Y>-0.3062214</Y>
+      <Z>0.0699937642</Z>
+      <W>0.9429144</W>
     </Orientation>
   </SpectatorPosition>
-  <SpectatorSpeed x="0.0625811741" y="1" />
+  <SpectatorSpeed x="61.6588" y="1" />
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraController>Entity</CameraController>
-  <CameraEntity>114010366787423403</CameraEntity>
-  <ControlledObject>114010366787423403</ControlledObject>
+  <CameraEntity>0</CameraEntity>
+  <ControlledObject>73663090107815669</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2023-10-11T20:56:06.9943254-05:00</LastSaveTime>
-  <SpectatorDistance>2.5</SpectatorDistance>
+  <LastSaveTime>2023-10-16T02:19:25.4029212-05:00</LastSaveTime>
+  <SpectatorDistance>20</SpectatorDistance>
   <WorkshopId>3049240943</WorkshopId>
   <WorkshopId1 xsi:nil="true" />
   <CharacterToolbar>
@@ -33,63 +32,7 @@
         <Index>0</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>1</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>2</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>3</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>4</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>5</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_MotorStator" Subtype="LargeStator" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>6</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>7</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SA_LoW_CapitalSpinalA" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>8</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="EntityCoverFractal" />
         </Data>
       </Slot>
     </Slots>
@@ -98,7 +41,7 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key>114010366787423403</Key>
+        <Key>73663090107815669</Key>
         <Value>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
@@ -115,7 +58,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -186,7 +129,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -531,26 +474,26 @@ SiegeCooldownTimer=18000
       <MyObjectBuilder_FactionRelation>
         <FactionId1>256211741812614090</FactionId1>
         <FactionId2>222895939069506054</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>256211741812614090</FactionId1>
         <FactionId2>240290823037749454</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>256211741812614090</FactionId1>
         <FactionId2>254526394259295320</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>256211741812614090</FactionId1>
         <FactionId2>229051799490468413</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>224231618273036389</FactionId1>
@@ -585,32 +528,32 @@ SiegeCooldownTimer=18000
       <MyObjectBuilder_FactionRelation>
         <FactionId1>222895939069506054</FactionId1>
         <FactionId2>254526394259295320</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>222895939069506054</FactionId1>
         <FactionId2>229051799490468413</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>240290823037749454</FactionId1>
         <FactionId2>254526394259295320</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>240290823037749454</FactionId1>
         <FactionId2>229051799490468413</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
         <FactionId1>254526394259295320</FactionId1>
         <FactionId2>229051799490468413</FactionId2>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_FactionRelation>
     </Relations>
     <RelationsWithPlayers>
@@ -809,8 +752,8 @@ SiegeCooldownTimer=18000
       <MyObjectBuilder_PlayerFactionRelation>
         <PlayerId>144115188075855873</PlayerId>
         <FactionId>256211741812614090</FactionId>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_PlayerFactionRelation>
       <MyObjectBuilder_PlayerFactionRelation>
         <PlayerId>144115188075855873</PlayerId>
@@ -821,8 +764,8 @@ SiegeCooldownTimer=18000
       <MyObjectBuilder_PlayerFactionRelation>
         <PlayerId>144115188075855873</PlayerId>
         <FactionId>229051799490468413</FactionId>
-        <Relation>Neutral</Relation>
-        <Reputation>0</Reputation>
+        <Relation>Enemies</Relation>
+        <Reputation>-1500</Reputation>
       </MyObjectBuilder_PlayerFactionRelation>
       <MyObjectBuilder_PlayerFactionRelation>
         <PlayerId>144115188075855896</PlayerId>
@@ -1264,22 +1207,21 @@ SiegeCooldownTimer=18000
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
-  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855873</IdentityId>
       <DisplayName>Invalid</DisplayName>
-      <CharacterEntityId>114010366787423403</CharacterEntityId>
+      <CharacterEntityId>73663090107815669</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.0222222228" y="0" z="7.450581E-09" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters>
-        <long>114010366787423403</long>
+        <long>73663090107815669</long>
       </SavedCharacters>
-      <LastLogoutTime>2023-10-11T20:56:06.9943254-05:00</LastLogoutTime>
+      <LastLogoutTime>2023-10-16T02:19:25.4029212-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition>
         <X>9941.2758495191647</X>
@@ -1294,7 +1236,7 @@ SiegeCooldownTimer=18000
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.0837142-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1307,7 +1249,7 @@ SiegeCooldownTimer=18000
       <DisplayName>ADM NPC9445</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1320,7 +1262,7 @@ SiegeCooldownTimer=18000
       <DisplayName>OUT NPC1742</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1333,7 +1275,7 @@ SiegeCooldownTimer=18000
       <DisplayName>NEU NPC3649</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1346,7 +1288,7 @@ SiegeCooldownTimer=18000
       <DisplayName>BLU NPC1764</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1359,7 +1301,7 @@ SiegeCooldownTimer=18000
       <DisplayName>RED NPC6284</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:46.4217433-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1372,7 +1314,7 @@ SiegeCooldownTimer=18000
       <DisplayName>Pirate</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-11T20:55:50.0937422-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T02:16:33.1464653-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:43.2247148-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1403,72 +1345,16 @@ SiegeCooldownTimer=18000
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_MotorStator" Subtype="LargeStator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SA_LoW_CapitalSpinalA" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+                  <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="EntityCoverFractal" />
                 </Data>
               </Slot>
             </Slots>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="114010366787423403">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>2.5</Distance>
+            <CameraControllerSettings EntityId="73663090107815669">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>20</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
@@ -1638,8 +1524,6 @@ SiegeCooldownTimer=18000
       </item>
     </dictionary>
   </AllPlayersColors>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -1812,7 +1696,7 @@ SiegeCooldownTimer=18000
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="0.7507671" y="0.6028996" z="-0.269927621" />
+      <SunDirectionNormalized x="0.7429714" y="0.607964337" z="-0.279951632" />
       <WeatherPlanetData>
         <MyObjectBuilder_WeatherPlanetData>
           <PlanetId>-4661945462517774898</PlanetId>
@@ -64206,7 +64090,7 @@ SiegeCooldownTimer=18000
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>117398</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>73199</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
@@ -64457,49 +64341,11 @@ SiegeCooldownTimer=18000
   <CustomSkybox />
   <RequiresDX>11</RequiresDX>
   <VicinityModelsCache>
-    <string>Models\Cubes\Large\MotorRotor.mwm</string>
-    <string>Models\Cubes\Large\LCDPanel.mwm</string>
-    <string>Models\Cubes\Large\RotatingLight.mwm</string>
     <string>Models\Cubes\Large\BatteryLarge.mwm</string>
-    <string>Models\Cubes\Large\GravityGenerator.mwm</string>
-    <string>O:\SteamLibrary\steamapps\workshop\content\244850\2953252400\Models\MA_Laser2\MA_Interior_Light.mwm</string>
-    <string>O:\SteamLibrary\steamapps\workshop\content\244850\2425204399\Models\Starcore Decal Logo Emissive 5x1x5.mwm</string>
-    <string>O:\SteamLibrary\steamapps\workshop\content\244850\2425204399\Models\Starcore Decal Logo Colorable 1x1x1.mwm</string>
-    <string>Models\Cubes\Large\TextPanel.mwm</string>
-    <string>Models\Cubes\large\Corner_LCD_1.mwm</string>
-    <string>Models\Cubes\Large\ArmorCorner.mwm</string>
-    <string>Models\Cubes\Large\AntennaDish.mwm</string>
-    <string>Models\Cubes\Large\ArmorSide.mwm</string>
-    <string>Models\Cubes\Large\MedicalRoom.mwm</string>
-    <string>O:\SteamLibrary\steamapps\workshop\content\244850\2425204399\Models\StarCore skinable 5x5x1.mwm</string>
-    <string>Models\Cubes\Large\MotorStator.mwm</string>
   </VicinityModelsCache>
   <VicinityArmorModelsCache>
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseTop.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedDiagonal.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlateSlab.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedLeft.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlateSlope2Tip.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateSlope2Tip.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateCenter.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2TipBack.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlateSlope2Tip.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
-  <RemoteAdminSettings>
-    <dictionary />
-  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
