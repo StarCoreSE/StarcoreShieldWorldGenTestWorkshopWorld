@@ -1,27 +1,28 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>789431360000</ElapsedGameTime>
+  <ElapsedGameTime>820044480000</ElapsedGameTime>
   <SessionName>StarcoreShieldWorldGenTestWorkshopWorld</SessionName>
   <SpectatorPosition>
-    <Position x="-4218.9776248716762" y="1203.5031370629827" z="6617.0032511967747" />
-    <Forward x="0.592969656" y="-0.165785149" z="-0.7879735" />
-    <Up x="-0.06423422" y="0.9657183" z="-0.2515195" />
+    <Position x="-7935.2088406423227" y="15.65401555306472" z="3.6138896472868987" />
+    <Forward x="0.9849245" y="-0.147587746" z="-0.0902312547" />
+    <Up x="0.11835663" y="0.955357" z="-0.2707115" />
     <Orientation>
-      <X>-0.110642239</X>
-      <Y>-0.3062214</Y>
-      <Z>0.0699937642</Z>
-      <W>0.9429144</W>
+      <X>-0.141922966</X>
+      <Y>-0.659349859</Y>
+      <Z>0.0466837771</Z>
+      <W>0.7368421</W>
     </Orientation>
   </SpectatorPosition>
-  <SpectatorSpeed x="61.6588" y="1" />
+  <SpectatorSpeed x="2.40583038" y="1" />
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraEntity>0</CameraEntity>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>73663090107815669</CameraEntity>
   <ControlledObject>73663090107815669</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2023-10-16T02:19:25.4029212-05:00</LastSaveTime>
-  <SpectatorDistance>20</SpectatorDistance>
+  <LastSaveTime>2023-10-16T22:50:12.1803706-05:00</LastSaveTime>
+  <SpectatorDistance>200</SpectatorDistance>
   <WorkshopId>3049240943</WorkshopId>
   <WorkshopId1 xsi:nil="true" />
   <CharacterToolbar>
@@ -32,7 +33,49 @@
         <Index>0</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="EntityCoverFractal" />
+          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="EntityCoverEVEDepot" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>1</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="TaiidanRailBomber" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="TaiidanHangarBomber" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="ADMTaiidanHangarFighter" />
         </Data>
       </Slot>
     </Slots>
@@ -57,8 +100,8 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <OnlineMode>OFFLINE</OnlineMode>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -129,7 +172,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -811,39 +854,14 @@ SiegeCooldownTimer=18000
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="StarCoreLinkUtility">
-      <Name>2927550954.sbm</Name>
-      <PublishedFileId>2927550954</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Norse Heavy Industries - Weaponcore">
-      <Name>2791770628.sbm</Name>
-      <PublishedFileId>2791770628</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCore Arcane Weaponry">
-      <Name>2883286527.sbm</Name>
-      <PublishedFileId>2883286527</PublishedFileId>
+    <ModItem FriendlyName="SCEntityCover">
+      <Name>3007088668.sbm</Name>
+      <PublishedFileId>3007088668</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCore Homeworld Craft">
       <Name>2906479598.sbm</Name>
       <PublishedFileId>2906479598</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCore Halo Craft">
-      <Name>2902780249.sbm</Name>
-      <PublishedFileId>2902780249</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCoreCTF">
-      <Name>3018817811.sbm</Name>
-      <PublishedFileId>3018817811</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Invalid's Vanilla Lobotomizer">
-      <Name>2953725395.sbm</Name>
-      <PublishedFileId>2953725395</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.4">
@@ -866,9 +884,9 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2824324850</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="TIOStarcore">
-      <Name>3019366671.sbm</Name>
-      <PublishedFileId>3019366671</PublishedFileId>
+    <ModItem FriendlyName="TIOStarcore-Dev">
+      <Name>3017842205.sbm</Name>
+      <PublishedFileId>3017842205</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Text HUD API">
@@ -884,6 +902,16 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="StarCorePracticeAI">
       <Name>3024311955.sbm</Name>
       <PublishedFileId>3024311955</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCoreLinkUtility">
+      <Name>2927550954.sbm</Name>
+      <PublishedFileId>2927550954</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCoreCTF">
+      <Name>3018817811.sbm</Name>
+      <PublishedFileId>3018817811</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore_Pointslist_Dev">
@@ -946,6 +974,11 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2832531817</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="StarCore Halo Craft">
+      <Name>2902780249.sbm</Name>
+      <PublishedFileId>2902780249</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="StarCore Enabler Rewards">
       <Name>2961654766.sbm</Name>
       <PublishedFileId>2961654766</PublishedFileId>
@@ -964,6 +997,11 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="Starcore Asteroid Generator">
       <Name>2903181153.sbm</Name>
       <PublishedFileId>2903181153</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCore Arcane Weaponry">
+      <Name>2883286527.sbm</Name>
+      <PublishedFileId>2883286527</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCore 1x1 Antenna">
@@ -989,11 +1027,6 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="SCMobilityBlocks">
       <Name>3020885446.sbm</Name>
       <PublishedFileId>3020885446</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SCEntityCover">
-      <Name>3007088668.sbm</Name>
-      <PublishedFileId>3007088668</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCDefenseBlocks">
@@ -1051,6 +1084,11 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2995125400</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Norse Heavy Industries - Weaponcore">
+      <Name>2791770628.sbm</Name>
+      <PublishedFileId>2791770628</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Naval LB-X Series">
       <Name>2852362966.sbm</Name>
       <PublishedFileId>2852362966</PublishedFileId>
@@ -1074,6 +1112,11 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="MA Buster Blocks">
       <Name>2449073590.sbm</Name>
       <PublishedFileId>2449073590</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Invalid's Vanilla Lobotomizer">
+      <Name>2953725395.sbm</Name>
+      <PublishedFileId>2953725395</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Heavy Assault Systems">
@@ -1207,6 +1250,7 @@ SiegeCooldownTimer=18000
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1217,11 +1261,11 @@ SiegeCooldownTimer=18000
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.0222222228" y="0" z="7.450581E-09" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters>
         <long>73663090107815669</long>
       </SavedCharacters>
-      <LastLogoutTime>2023-10-16T02:19:25.4029212-05:00</LastLogoutTime>
+      <LastLogoutTime>2023-10-16T22:50:12.1803706-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition>
         <X>9941.2758495191647</X>
@@ -1236,7 +1280,7 @@ SiegeCooldownTimer=18000
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.0837142-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1249,7 +1293,7 @@ SiegeCooldownTimer=18000
       <DisplayName>ADM NPC9445</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1262,7 +1306,7 @@ SiegeCooldownTimer=18000
       <DisplayName>OUT NPC1742</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1275,7 +1319,7 @@ SiegeCooldownTimer=18000
       <DisplayName>NEU NPC3649</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1288,7 +1332,7 @@ SiegeCooldownTimer=18000
       <DisplayName>BLU NPC1764</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1301,7 +1345,7 @@ SiegeCooldownTimer=18000
       <DisplayName>RED NPC6284</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:29.2984659-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:34.1242511-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1314,7 +1358,7 @@ SiegeCooldownTimer=18000
       <DisplayName>Pirate</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-10-16T02:16:33.1464653-05:00</LastLoginTime>
+      <LastLoginTime>2023-10-16T22:46:39.5472507-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:43.2247148-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1345,7 +1389,49 @@ SiegeCooldownTimer=18000
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="EntityCoverFractal" />
+                  <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="EntityCoverEVEDepot" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="TaiidanRailBomber" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="TaiidanHangarBomber" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_ConveyorSorter" Subtype="ADMTaiidanHangarFighter" />
                 </Data>
               </Slot>
             </Slots>
@@ -1353,8 +1439,18 @@ SiegeCooldownTimer=18000
           </Toolbar>
           <EntityCameraData>
             <CameraControllerSettings EntityId="73663090107815669">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>200</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="82145776199047453">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>20</Distance>
+              <Distance>200</Distance>
+              <HeadAngle x="-13.40125" y="135.316788" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="73722793481916495">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>200</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
@@ -1362,7 +1458,7 @@ SiegeCooldownTimer=18000
             <Vector3>
               <X>0</X>
               <Y>-0.8</Y>
-              <Z>0.55</Z>
+              <Z>7.450581E-09</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1433,7 +1529,7 @@ SiegeCooldownTimer=18000
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
           <RemoteAdminSettings>4</RemoteAdminSettings>
           <PromoteLevel>None</PromoteLevel>
-          <BuildArmorSkin>SciFi_Armor</BuildArmorSkin>
+          <BuildArmorSkin />
           <BuildColorSlot>0</BuildColorSlot>
           <IsWildlifeAgent>false</IsWildlifeAgent>
           <PlatformIcon></PlatformIcon>
@@ -1524,6 +1620,8 @@ SiegeCooldownTimer=18000
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -1696,7 +1794,7 @@ SiegeCooldownTimer=18000
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="0.7429714" y="0.607964337" z="-0.279951632" />
+      <SunDirectionNormalized x="0.597611368" y="0.6738402" z="-0.434511274" />
       <WeatherPlanetData>
         <MyObjectBuilder_WeatherPlanetData>
           <PlanetId>-4661945462517774898</PlanetId>
@@ -64090,12 +64188,12 @@ SiegeCooldownTimer=18000
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>73199</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>21349</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
-      <LastCoordSysId>28</LastCoordSysId>
+      <LastCoordSysId>38</LastCoordSysId>
       <CoordSystems>
         <CoordSysInfo>
           <Id>10</Id>
@@ -64120,6 +64218,12 @@ SiegeCooldownTimer=18000
           <EntityCount>1</EntityCount>
           <Rotation x="-0.0204231944" y="-0.6946612" z="0.7186394" w="0.0242102444" />
           <Position x="-7500.0680433170519" y="4.0042986664721507" z="4.3517588429631378" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>34</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.0147447009" y="0.726104736" z="-0.00544428639" w="0.687404454" />
+          <Position x="8383.9292270759779" y="9.48824619945799" z="8.0119511715249416" />
         </CoordSysInfo>
       </CoordSystems>
     </MyObjectBuilder_SessionComponent>
@@ -64340,12 +64444,13 @@ SiegeCooldownTimer=18000
   <InGameTime>2081-01-01T07:00:00</InGameTime>
   <CustomSkybox />
   <RequiresDX>11</RequiresDX>
-  <VicinityModelsCache>
-    <string>Models\Cubes\Large\BatteryLarge.mwm</string>
-  </VicinityModelsCache>
+  <VicinityModelsCache />
   <VicinityArmorModelsCache>
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

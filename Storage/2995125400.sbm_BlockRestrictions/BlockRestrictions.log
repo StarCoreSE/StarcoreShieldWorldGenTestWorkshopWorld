@@ -1,5 +1,5 @@
-[02:16:32.532] [T1] [DS=False] DEBUG | Log Started
-[02:16:32.584] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[22:46:38.591] [T1] [DS=False] DEBUG | Log Started
+[22:46:38.646] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1824,13 +1824,13 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/DisabledHakkeroProjectileMini
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Heavy_Repeater
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Type18_Artillery
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Type21_Artillery
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Light_Coil_Turret
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Assault_Coil_Turret
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Fixed_Rockets
@@ -2271,21 +2271,21 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_UpgradeModule/LargeLargeBlockUpgrade
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Reaver_Coilgun_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Priest_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Type18_Artillery_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Type21_Artillery_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Type24_Artillery_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Type77_Railgun_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Type78_Railgun_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Type79_Railgun_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Collector/SC_PowerControlSystem_L
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_Collector/SC_PowerControlSystem_S
@@ -2327,6 +2327,16 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/Thagomizer_Flipped
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Thagomizer_Angled_Flipped
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_BatteryBlock/EntityCoverEVEDepot
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRailBomberAdmin
+->-> Unable to retrieve MyCubeBlockDefinition
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRailFighterAdmin
+->-> Unable to retrieve MyCubeBlockDefinition
+-> Setting = MyObjectBuilder_ConveyorSorter/ADMTaiidanHangarFighter
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/ADMTaiidanHangarBomber
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
