@@ -144,16 +144,6 @@
     <EnemyTargetIndicatorDistance>20</EnemyTargetIndicatorDistance>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="SCEntityCover">
-      <Name>3007088668.sbm</Name>
-      <PublishedFileId>3007088668</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCore Homeworld Craft">
-      <Name>2906479598.sbm</Name>
-      <PublishedFileId>2906479598</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.4">
       <Name>1918681825.sbm</Name>
       <PublishedFileId>1918681825</PublishedFileId>
@@ -264,6 +254,11 @@
       <PublishedFileId>2832531817</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="StarCore Homeworld Craft">
+      <Name>2906479598.sbm</Name>
+      <PublishedFileId>2906479598</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="StarCore Halo Craft">
       <Name>2902780249.sbm</Name>
       <PublishedFileId>2902780249</PublishedFileId>
@@ -317,6 +312,11 @@
     <ModItem FriendlyName="SCMobilityBlocks">
       <Name>3020885446.sbm</Name>
       <PublishedFileId>3020885446</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="SCEntityCover">
+      <Name>3007088668.sbm</Name>
+      <PublishedFileId>3007088668</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCDefenseBlocks">
@@ -541,5 +541,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarcoreShieldWorldGenTestWorkshopWorld</SessionName>
-  <LastSaveTime>2023-10-16T22:50:12.1803706-05:00</LastSaveTime>
+  <LastSaveTime>2023-10-18T22:15:32.6571565-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
