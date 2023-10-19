@@ -5,13 +5,13 @@
   <SessionName>StarcoreShieldWorldGenTestWorkshopWorld</SessionName>
   <SpectatorPosition>
     <Position x="-6322.455473122689" y="385.99995243745605" z="1153.3536271047985" />
-    <Forward x="0.9629267" y="-0.203280419" z="-0.177339524" />
-    <Up x="0.146330982" y="0.9458722" z="-0.28967756" />
+    <Forward x="0.9629266" y="-0.2032804" z="-0.177339643" />
+    <Up x="0.146330953" y="0.9458722" z="-0.289677531" />
     <Orientation>
       <X>-0.1607907</X>
       <Y>-0.6208676</Y>
-      <Z>0.034788873</Z>
-      <W>0.766459048</W>
+      <Z>0.03478887</Z>
+      <W>0.7664591</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorSpeed x="8.119678" y="1" />
@@ -178,7 +178,6 @@
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <SimplifiedSimulation>false</SimplifiedSimulation>
-    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>true</EnableSelectivePhysicsUpdates>
@@ -1213,7 +1212,6 @@ SiegeCooldownTimer=18000
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
-  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1550,8 +1548,6 @@ SiegeCooldownTimer=18000
       </item>
     </dictionary>
   </AllPlayersColors>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -64386,8 +64382,4 @@ SiegeCooldownTimer=18000
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
-  <RemoteAdminSettings>
-    <dictionary />
-  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
-<!-- Saved '2023-10-18T22:56:21.6421695-05:00' with SEToolbox version '1.203.22.3' -->
